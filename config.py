@@ -1,8 +1,8 @@
 OLLAMA_URL = "http://127.0.0.1:11434/api/chat"
 BASE_URL = "http://127.0.0.1:9090/payloads/"
 
-#MODELS = ["qwen2.5:1.5b", "qwen2.5:3b", "llama3.2:3b"]
-MODELS = ["qwen2.5:0.5b"]
+MODELS = ["qwen2.5:1.5b", "qwen2.5:3b", "llama3.2:3b"]
+#MODELS = ["qwen2.5:0.5b"]
 
 PAYLOADS = {
     "V1": {
@@ -20,7 +20,9 @@ PAYLOADS = {
         "hidden_css.html": "HIDDENOWN", 
         "meta_tag.html": "METAOWN",
     },
-    "V3": {},
+    "V3": {
+        "template_injection.html": "PIVOTOWN"
+    },
 }
 
 VERBOSE = True
