@@ -1,7 +1,7 @@
 OLLAMA_URL = "http://127.0.0.1:11434/api/chat"
 BASE_URL = "http://127.0.0.1:9090/payloads/"
 
-MODELS = ["qwen2.5:1.5b", "qwen2.5:3b", "llama3.2:3b", "qwen2.5:7b"]
+MODELS = ["qwen2.5:1.5b", "qwen2.5:3b", "llama3.2:3b"]#"qwen2.5:7b"]
 #MODELS = ["qwen2.5:0.5b"]
 
 PAYLOADS = {
